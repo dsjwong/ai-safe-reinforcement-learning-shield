@@ -51,3 +51,19 @@ jupyter notebook safe_rl_shield.ipynb
 | Exp 3 | Train neural network safety shield classifier |
 | Exp 4 | Integrate shield with RL agent — block unsafe actions |
 | Exp 5 | Evaluate and compare shielded vs. unshielded performance |
+
+## Environment
+
+Developed and tested with:
+
+- Python 3.9+
+- Jupyter Notebook / JupyterLab
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt      # if provided
+# or manually: pip install numpy pandas matplotlib scikit-learn torch torchvision
+```
+
+Open notebooks in order — each notebook builds on outputs from the previous one.
